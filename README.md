@@ -2,7 +2,7 @@
 This is my first ML model I made using scikit-learn as the backbone. The whole idea was the practice all the ML basics and build upon the foundation I already created for myself.
 I spent time learning the basics for Python, Pandas, MatPlotLib and Machine Learning statsitical methods so now it was time to try and make my own model.
 
-## The data
+## Organizing the data
 Scikit learn already has databases built into it, so I wanted to work with one that I hadn't already read about so I couldn't really "cheat" and copy it. I ended up going with the "load_wine" dataset. This data has 178 samples with 13 features and 3 classes.
 
 > I will admit that getting the data from scikit learn really glosses over a big part of DataScience which is getting the data and organzing/cleaning it. That part was done for me, but I had tried practicing this technique myself before with random Country GDP data I found on the internet.
