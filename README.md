@@ -57,3 +57,10 @@ print(accuracy_score(y_test, predictions_RFC_update))
 ~~~
 
 Again, this resulted in a perfect model, but I'm glad I got to try more techniques.
+
+# Future thoughts
+### Feature scaling
+This model did not need it since it was a Random Forest, but many other models benefit more from them (such as KNN or linear regression).
+
+### OneHotEncoder
+None of the features were text, so I didn't have to use this, but it is something I should look into and learn in the future.
