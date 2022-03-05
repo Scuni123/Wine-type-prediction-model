@@ -46,8 +46,9 @@ grid.fit(X_train, y_train)
 pd.DataFrame(grid.cv_results_)
 ~~~
 
-I tried this for both max_depth and n_estimators. From there, I chose the best results for each and then retrained my model using the optimized hyperparameters to end up with m final model:
+I tried this for both max_depth and n_estimators. From there, I chose the best results for each and then retrained my model using the optimized hyperparameters to end up with my final model.
 
+## Final model
 ~~~
 model_RFC_update = RandomForestClassifier(n_estimators=500, max_depth = 9)
 model_RFC_update.fit(X_train, y_train)
